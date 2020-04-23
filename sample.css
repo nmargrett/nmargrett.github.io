@@ -42,5 +42,7 @@
 
 /*Formats headshot image for homepage. */
 .img-headshot{
-    width: 300px; 
+    width: 300px;
+    height: 200px;
+    background-image: url(headshot.jpg);
 }
