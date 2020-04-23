@@ -39,3 +39,7 @@
   .dropdown-item{
     font-family: 'Fugaz One', cursive;
   }
+
+/*Formats headshot image for homepage. */
+.img-headshot{
+    width: 300px; 
