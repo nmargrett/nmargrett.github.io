@@ -52,7 +52,7 @@ a:active {
     margin-right: auto;
     background-image: url(img/headshot.jpg);
     background-size: contain;
-    background-repeat: no-no-repeat;
+    background-repeat:no-repeat;
   }
 .text {
   font-size: 200%;
