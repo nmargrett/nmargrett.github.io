@@ -98,7 +98,7 @@ a:active {
   text-align: center;
 }
 .image-container {
-  width: 1200px;
+  width: 900px;
   height: 300px;
   position: relative;
   transition: left 2s;
@@ -130,9 +130,6 @@ a:active {
 }
 #slider-image-3:target ~ .image-container{
   left:-600px;
-}
-#slider-image-4:target ~ .image-container{
-  left:-900px;
 }
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
