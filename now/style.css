@@ -1,0 +1,170 @@
+/* This is used to center the text on the page. */
+  .homepage {
+    color: black;
+    font-family: 'Fugaz One', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+    min-height: 100vh;
+  }
+
+  /* Formats the About Me. */
+  .navbar-brand {
+    font-family: 'Fugaz One', cursive;
+    font-size: 23px;
+  }
+
+  /* Formats items in the navbar i.e. the dropdown menu etc. */
+  .nav-link {
+    font-family: 'Fugaz One', cursive;
+    font-size: 23px;
+  }
+
+  /* Formats the dropdown items */
+  .dropdown-item {
+    font-family: 'Fugaz One', cursive;
+  }
+
+a:link {
+  color: lightblue;
+  text-decoration: none;
+}
+a:visited {
+  color: lightblue;
+    text-decoration: none;
+}
+a:hover {
+  color: lightblue;
+    text-decoration: none;
+}
+a:active {
+  color: lightblue;
+    text-decoration: none;
+}
+  .img-headshot {
+    width: 600px;
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(img/headshot.jpg);
+    background-size: contain;
+    background-repeat:no-repeat;
+  }
+.text {
+  font-size: 200%;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  width: 50%;
+}
+.heading {
+  font-size: 210%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.role {
+  font-size: 210%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.location {
+  font-size: 150%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.date {
+  font-size: 200%
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.body-background-color{
+  background-color: white;
+}
+.slide-container {
+  width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  text-align: center;
+}
+.image-container {
+  width: 900px;
+  height: 300px;
+  position: relative;
+  transition: left 2s;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+}
+.slider-image {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+}
+.button-container {
+  top: -20px;
+  position: relative;
+}
+.slider-button {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+#slider-image-1:target ~ .image-container{
+  left:0px;
+}
+#slider-image-2:target ~ .image-container{
+  left:-300px;
+}
+#slider-image-3:target ~ .image-container{
+  left:-600px;
+}
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+.mail {
+  background: #55ACEE;
+  color: white;
+}
+.instagram {
+  background: #dd4b39;
+  color: white;
+}
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
